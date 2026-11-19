@@ -1,7 +1,7 @@
 {
   "name": "dsh-pet",
   "version": "0.5.0",
-  "description": "DSH 侧纯数据通道：把会话工作状态与通知通过本机 loopback 提供给桌面桌宠 exe（不含界面、不含余额、不含配置）",
+  "description": "DSH 侧纯数据通道：把会话工作状态与通知通过本机 loopback 提供给桌面桌宠 exe（不含界面、不含余额、不含配置）。配套桌面端：https://github.com/Justinliu123/dsh-pet",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -21,6 +21,14 @@
     "data-channel"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justinliu123/dsh-pet-bridge.git"
+  },
+  "homepage": "https://github.com/Justinliu123/dsh-pet",
+  "bugs": {
+    "url": "https://github.com/Justinliu123/dsh-pet/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"

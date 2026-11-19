@@ -1,6 +1,14 @@
 # dsh-pet-bridge
 
-DSH（DeepSeek Harness）侧的**纯数据通道**插件，配合主仓 **dsh-pet** 的桌面 exe 使用。
+DSH（DeepSeek Harness）侧的**纯数据通道**插件，配合桌面版桌宠 exe 使用。
+
+## 配套仓库
+
+| 角色 | 仓库 | 说明 |
+| --- | --- | --- |
+| **桌面端（主仓，exe）** | https://github.com/Justinliu123/dsh-pet | 桌宠本体：气泡/外观/余额/账本/设置页，可打包成便携 exe |
+| 插件端（本仓） | https://github.com/Justinliu123/dsh-pet-bridge | 只提供 `workStatus` / `notify` 与 `/state` 读取口 |
+| 上游来源（原作者） | https://github.com/PC2005-cloud/dsh-pet | 桌面端 fork 的上游项目，本仓的协议按它的 `PollStateStore` 信封对齐 |
 
 ## 它做什么
 
